@@ -7,9 +7,15 @@ import threading
 import os
 
 os.system("clear") 
-print("""\033[92m
 
-    
+print("\033[91m██████╗░████████╗██╗░░██╗") 
+print("\033[91m██╔══██╗╚══██╔══╝╚██╗██╔╝") 
+print("\033[91m██████╔╝░░░██║░░░░╚███╔╝░") 
+print("\033[90m██╔══██╗░░░██║░░░░██╔██╗░") 
+print("\033[90m██║░░██║░░░██║░░░██╔╝╚██╗") 
+print("\033[90m╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝") 
+ 
+print("\033[90m") 
 ip = str(input("[•] IP Target : "))
 port = int(input("[•] PORT Target : "))
 times = int(input("[•] PACKETS Send : "))

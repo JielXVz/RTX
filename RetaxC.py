@@ -4,14 +4,11 @@
 import random
 import socket
 import threading
+import os
 
-print       (" - - > DDOS ATTACK !! DDOS ATTACK !! < - - ")
-print       (" - - > DONT ABUSE THIS TOOLS !!!! < - - ")
-print       (" - - > MY DISCORD? XTraylinz#0965 <- - ")                                   
-print       (" - - > JIKA BUTUH BANTUAN LEBIH LANJUT BISA PM DISCORD SAYA < - - ")
-print       (" - - > JOIN COMMUNITY LINK DIBAWAH < - - ")
-print       (" - - > https://discord.gg/nWDNdZRtBa < - - ")
-print       (" - - > BUAT YANG MAU BELAJAR LEBIH, JOIN SKUY < - - ")
+os.system("clear") 
+print("""\033[92m
+
     
 ip = str(input("[•] IP Target : "))
 port = int(input("[•] PORT Target : "))

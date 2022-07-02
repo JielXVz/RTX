@@ -11,9 +11,9 @@ os.system("clear")
 print("\033[91m██████╗░████████╗██╗░░██╗") 
 print("\033[91m██╔══██╗╚══██╔══╝╚██╗██╔╝") 
 print("\033[91m██████╔╝░░░██║░░░░╚███╔╝░") 
-print("\033[90m██╔══██╗░░░██║░░░░██╔██╗░") 
-print("\033[90m██║░░██║░░░██║░░░██╔╝╚██╗") 
-print("\033[90m╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝") 
+print("\033[97m██╔══██╗░░░██║░░░░██╔██╗░") 
+print("\033[97m██║░░██║░░░██║░░░██╔╝╚██╗") 
+print("\033[97m╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝") 
  
 print("\033[90m") 
 ip = str(input("[•] IP Target : "))
@@ -65,8 +65,8 @@ for y in range(threads):
 	if choice == 'y':
 		th = threading.Thread(target = run)
 		th.start()
-	        th = threading.Thread(target = run2) 
-                th.start() 
-        else:
+		th = threading.Thread(target = run2)
+		th.start
+	else:
 		th = threading.Thread(target = run3)
 		th.start()
